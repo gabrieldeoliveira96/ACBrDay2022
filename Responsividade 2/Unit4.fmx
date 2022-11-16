@@ -1,0 +1,267 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  Caption = 'Form4'
+  ClientHeight = 548
+  ClientWidth = 348
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 348.000000000000000000
+    Size.Height = 548.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      348s
+      522s
+      348s
+      522s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      object FlowLayout1: TFlowLayout
+        Align = Client
+        Size.Width = 348.000000000000000000
+        Size.Height = 393.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Justify = Center
+        JustifyLastLine = Center
+        FlowDirection = LeftToRight
+        object GosButtonView3: TGosButtonView
+          Align = Left
+          Background.XRadius = 10.000000000000000000
+          Background.YRadius = 10.000000000000000000
+          Background.ItemDefault.Color = claWhite
+          Margins.Left = 16.000000000000000000
+          Margins.Top = 8.000000000000000000
+          Margins.Bottom = 8.000000000000000000
+          Size.Width = 150.000000000000000000
+          Size.Height = 67.000000000000000000
+          Size.PlatformDefault = False
+          Position.X = 24.000000000000000000
+          Position.Y = 8.000000000000000000
+          TabOrder = 4
+          OnClick = GosButtonView3Click
+          Text = 'Schedule'
+          TextSettings.Color.Default = claSilver
+          TextSettings.Color.Focused = claNull
+          TextSettings.Color.Selected = claNull
+          TextSettings.Color.Enabled = claNull
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Gravity = Center
+          Drawable.XRadius = 10.000000000000000000
+          Drawable.YRadius = 10.000000000000000000
+        end
+        object GosButtonView4: TGosButtonView
+          Align = Left
+          Background.XRadius = 10.000000000000000000
+          Background.YRadius = 10.000000000000000000
+          Background.ItemDefault.Color = claWhite
+          Margins.Left = 16.000000000000000000
+          Margins.Top = 8.000000000000000000
+          Margins.Bottom = 8.000000000000000000
+          Size.Width = 150.000000000000000000
+          Size.Height = 67.000000000000000000
+          Size.PlatformDefault = False
+          Position.X = 190.000000000000000000
+          Position.Y = 8.000000000000000000
+          TabOrder = 5
+          Text = 'Schedule'
+          TextSettings.Color.Default = claSilver
+          TextSettings.Color.Focused = claNull
+          TextSettings.Color.Selected = claNull
+          TextSettings.Color.Enabled = claNull
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Gravity = Center
+          Drawable.XRadius = 10.000000000000000000
+          Drawable.YRadius = 10.000000000000000000
+        end
+        object GosButtonView9: TGosButtonView
+          Align = Left
+          Background.XRadius = 10.000000000000000000
+          Background.YRadius = 10.000000000000000000
+          Background.ItemDefault.Color = claWhite
+          Margins.Left = 16.000000000000000000
+          Margins.Top = 8.000000000000000000
+          Margins.Bottom = 8.000000000000000000
+          Size.Width = 150.000000000000000000
+          Size.Height = 67.000000000000000000
+          Size.PlatformDefault = False
+          Position.X = 24.000000000000000000
+          Position.Y = 91.000000000000000000
+          TabOrder = 3
+          Text = 'Messeger'
+          TextSettings.Color.Default = claSilver
+          TextSettings.Color.Focused = claNull
+          TextSettings.Color.Selected = claNull
+          TextSettings.Color.Enabled = claNull
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Gravity = Center
+          Drawable.XRadius = 10.000000000000000000
+          Drawable.YRadius = 10.000000000000000000
+        end
+        object GosButtonView10: TGosButtonView
+          Align = Left
+          Background.XRadius = 10.000000000000000000
+          Background.YRadius = 10.000000000000000000
+          Background.ItemDefault.Color = xFF9F0FCD
+          Margins.Left = 16.000000000000000000
+          Margins.Top = 8.000000000000000000
+          Margins.Bottom = 8.000000000000000000
+          Size.Width = 150.000000000000000000
+          Size.Height = 67.000000000000000000
+          Size.PlatformDefault = False
+          Position.X = 190.000000000000000000
+          Position.Y = 91.000000000000000000
+          TabOrder = 7
+          OnClick = GosButtonView10Click
+          Text = 'Dashboard'
+          TextSettings.Color.Default = claWhite
+          TextSettings.Color.Focused = claNull
+          TextSettings.Color.Selected = claNull
+          TextSettings.Color.Enabled = claNull
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Gravity = Center
+          Drawable.XRadius = 10.000000000000000000
+          Drawable.YRadius = 10.000000000000000000
+        end
+        object GosButtonView11: TGosButtonView
+          Align = Left
+          Background.XRadius = 10.000000000000000000
+          Background.YRadius = 10.000000000000000000
+          Background.ItemDefault.Color = claWhite
+          Margins.Left = 16.000000000000000000
+          Margins.Top = 8.000000000000000000
+          Margins.Bottom = 8.000000000000000000
+          Size.Width = 150.000000000000000000
+          Size.Height = 67.000000000000000000
+          Size.PlatformDefault = False
+          Position.X = 24.000000000000000000
+          Position.Y = 174.000000000000000000
+          TabOrder = 6
+          Text = 'Schedule'
+          TextSettings.Color.Default = claSilver
+          TextSettings.Color.Focused = claNull
+          TextSettings.Color.Selected = claNull
+          TextSettings.Color.Enabled = claNull
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Gravity = Center
+          Drawable.XRadius = 10.000000000000000000
+          Drawable.YRadius = 10.000000000000000000
+        end
+        object GosButtonView12: TGosButtonView
+          Align = Left
+          Background.XRadius = 10.000000000000000000
+          Background.YRadius = 10.000000000000000000
+          Background.ItemDefault.Color = claWhite
+          Margins.Left = 16.000000000000000000
+          Margins.Top = 8.000000000000000000
+          Margins.Bottom = 8.000000000000000000
+          Size.Width = 150.000000000000000000
+          Size.Height = 67.000000000000000000
+          Size.PlatformDefault = False
+          Position.X = 190.000000000000000000
+          Position.Y = 174.000000000000000000
+          TabOrder = 2
+          Text = 'Job Board'
+          TextSettings.Color.Default = claSilver
+          TextSettings.Color.Focused = claNull
+          TextSettings.Color.Selected = claNull
+          TextSettings.Color.Enabled = claNull
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Gravity = Center
+          Drawable.XRadius = 10.000000000000000000
+          Drawable.YRadius = 10.000000000000000000
+        end
+      end
+      object Rectangle1: TRectangle
+        Align = Top
+        Fill.Kind = Gradient
+        Fill.Gradient.Points = <
+          item
+            Color = xFFDC6EFF
+            Offset = 0.000000000000000000
+          end
+          item
+            Color = xFF4844F6
+            Offset = 1.000000000000000000
+          end>
+        Fill.Gradient.StartPosition.X = 0.500000000000000000
+        Fill.Gradient.StartPosition.Y = 1.000000000000000000
+        Fill.Gradient.StopPosition.X = 0.499999970197677600
+        Fill.Gradient.StopPosition.Y = 0.000000000000000000
+        Size.Width = 348.000000000000000000
+        Size.Height = 129.000000000000000000
+        Size.PlatformDefault = False
+        object ALCircle1: TALCircle
+          Align = Center
+          Fill.Color = claWhite
+          Size.Width = 90.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+      object FlowLayout2: TFlowLayout
+        Align = Client
+        Anchors = []
+        Size.Width = 348.000000000000000000
+        Size.Height = 472.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Justify = Center
+        JustifyLastLine = Center
+        FlowDirection = LeftToRight
+      end
+      object Layout1: TLayout
+        Align = Top
+        Size.Width = 348.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        object SpeedButton1: TSpeedButton
+          Align = Left
+          Size.Width = 80.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+          Text = 'SpeedButton1'
+          OnClick = SpeedButton1Click
+        end
+      end
+    end
+  end
+end
